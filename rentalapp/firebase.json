@@ -1,0 +1,29 @@
+{
+    "flutter": {
+      "platforms": {
+        "dart": {
+          "lib/firebase_options.dart": {
+            "projectId": "rentalapp-6c770",
+            "configurations": {
+              "web": "1:783077915505:web:63b91b4e6ae3daa7b5d4d0"
+            }
+          }
+        }
+      }
+    },
+    "hosting": {
+      "public": "build/web", 
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "/**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  }
+  
