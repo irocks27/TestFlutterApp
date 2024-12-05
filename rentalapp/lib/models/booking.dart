@@ -1,0 +1,1 @@
+// Booking model (for storing booking data)

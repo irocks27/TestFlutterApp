@@ -1,0 +1,1 @@
+// User model (user details like name, email, etc.)
